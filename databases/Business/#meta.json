@@ -25,6 +25,11 @@
 					"name": "Job_ID",
 					"type": "int",
 					"foreign_key": true
+				},
+				{
+					"name": "Proj_ID",
+					"type": "int",
+					"foreign_key": true
 				}
 			]
 		},
@@ -42,11 +47,6 @@
 				{
 					"name": "Job_Title",
 					"type": "string"
-				},
-				{
-					"name": "Proj_ID",
-					"type": "int",
-					"foreign_key": true
 				}
 			]
 		},
