@@ -1,0 +1,71 @@
+{
+	"name": "Business",
+	"tables":
+	[
+		{
+			"name": "Employee",
+			"columns":
+			[
+				{
+					"name": "Emp_ID",
+					"type": "int",
+					"auto_increment": true,
+					"primary_key": true,
+					"required": true
+				},
+				{
+					"name": "Emp_FName",
+					"type": "string"
+				},
+				{
+					"name": "Emp_LName",
+					"type": "string"
+				},
+				{
+					"name": "Job_ID",
+					"type": "int",
+					"foreign_key": true
+				}
+			]
+		},
+		{
+			"name": "Job",
+			"columns":
+			[
+				{
+					"name": "Job_ID",
+					"type": "int",
+					"auto_increment": true,
+					"primary_key": true,
+					"required": true
+				},
+				{
+					"name": "Job_Title",
+					"type": "string"
+				},
+				{
+					"name": "Proj_ID",
+					"type": "int",
+					"foreign_key": true
+				}
+			]
+		},
+		{
+			"name": "Project",
+			"columns":
+			[
+				{
+					"name": "Proj_ID",
+					"type": "int",
+					"auto_increment": true,
+					"primary_key": true,
+					"required": true
+				},
+				{
+					"name": "Proj_Title",
+					"type": "string"
+				}
+			]
+		}
+	]
+}
