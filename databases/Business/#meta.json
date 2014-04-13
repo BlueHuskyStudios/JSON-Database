@@ -8,7 +8,7 @@
 			[
 				{
 					"name": "Emp_ID",
-					"type": "int",
+					"type": "number",
 					"auto_increment": true,
 					"primary_key": true,
 					"required": true
@@ -23,12 +23,12 @@
 				},
 				{
 					"name": "Job_ID",
-					"type": "int",
+					"type": "number",
 					"foreign_key": true
 				},
 				{
 					"name": "Proj_ID",
-					"type": "int",
+					"type": "number",
 					"foreign_key": true
 				}
 			]
@@ -39,7 +39,7 @@
 			[
 				{
 					"name": "Job_ID",
-					"type": "int",
+					"type": "number",
 					"auto_increment": true,
 					"primary_key": true,
 					"required": true
@@ -56,7 +56,7 @@
 			[
 				{
 					"name": "Proj_ID",
-					"type": "int",
+					"type": "number",
 					"auto_increment": true,
 					"primary_key": true,
 					"required": true
